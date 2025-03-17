@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cachebot"
+version = "0.1.0"
+description = "Private Discord Bot"
+authors = ["Avijeet Singh", "Rino James"]
+license = "GPL"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+coc-py = "^3.9.0"
+py-cord = "^2.6.1"
+audioop-lts = "^0.2.1"
+orjson = "^3.10.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
